@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #222222;
+    font-size: 1.3rem;
+    background-color:#EEEEEE ;
+    width: 100%;
+    
+    
+}
+
+header{ /*Estilização do Cabeçalho*/
+    color: white;
+    background-color: #33552C;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.font-cabecalho{
+font-size: 1.8rem;
+display: inline;
+padding: 10px 30px 10px 30px;
+
+}
+header>a{
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+nav{
+    display: inline; /*Transforma o menu em inline (Permite ocupar apenas uma parte da lnha)*/
+}
+nav>a{ /*Estilização do itens do MENU*/
+    color: white;
+    text-decoration: none; 
+    padding: 15px;
+    margin-right: 12px;
+   
+
+}
+nav>a:hover{ /*Efeito ao passar o mouse: MENU*/
+    text-decoration: underline;/*Sublinhado ao passar o mouse em cima*/
+
+}
+h1{
+    font-size: 2rem;
+}
+main{
+    
+    margin: auto;
+    text-align: justify;
+    
+    
+}
+section#conteudo{
+    padding: 10px 200px 20px 200px;
+}
+section#aside{
+    padding: 10px 200px 20px 200px;
+    margin: auto;
+}
+img.main{
+    margin: auto;
+    display: block;
+}
+footer{
+    color: white;
+    background-color: #33552C;
+    text-align: center;
+}
+footer>p{
+    padding: 1px;
+    margin: 0px;
+}
+
+
+section#fale-conosco{
+    background-color:  #33552C;
+    padding: 10px 200px 10px 100px;
+    color: white;
+}
