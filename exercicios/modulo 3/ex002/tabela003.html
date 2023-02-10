@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            width: 500px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gray;
+        }
+        th, tfoot{
+            background-color: grey;
+            color: white;
+            font-weight: border;
+        }
+        th, td{
+            border: 1px solid black;
+           
+        }
+        th.num, td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead> <!--Local da Tabela: Cabeça da Tabela-->
+            <tr> <!--Linha do Cabeçalho-->
+                <th scope="col">Estados</th> <!--Cabeçalho-->
+                <th style="width: 50px;">População</th><!--Cabeçalho-->
+            </tr>
+        </thead>
+        <tbody> <!--Local da Tabela: Corpo da Tabela-->
+            <tr> <!--Linha do corpo-->
+                <td>São Paulo</td> <!--Dado-->
+                <td  class="num">45 919 049</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Minas Gerais</td> <!--Dado-->
+                <td class="num">21 168 791</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Rio de Janeiro</td> <!--Dado-->
+                <td class="num"> 17 264 943</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Bahia</td> <!--Dado-->
+                <td class="num"> 14873 064</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Paraná</td> <!--Dado-->
+                <td class="num">11 433 957</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Rio Grande do Sul</td> <!--Dado-->
+                <td class="num">11 377 239</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Pernambuco</td> <!--Dado-->
+                <td class="num">9 551 071</td><!--Dado-->
+            </tr>
+            <tr> <!--Linha do corpo-->
+                <td>Ceará</td> <!--Dado-->
+                <td class="num">9 132 078</td><!--Dado-->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th> <!--Cabeçalho do Rodapé-->
+                <td class="num">140.720.192</td><!--Cabeçalho do Rodapé-->
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
