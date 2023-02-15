@@ -9,12 +9,27 @@
 <body>
     <form action="formulário 02/cadastro/
     " method="get" autocomplete="on">
-        <p>
-            <legend>Sexo</legend>
-            <input type="checkbox" name="sexo" id="isexo">
-            <label for="sexo"> Masculino</label>
-
-        </p>
+        
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="isexo" value="M" checked>
+                <label for="isexo"> Masculino</label>
+                <input type="radio" name="sexo" id="isexo" value="F">
+                <label for="isexo">Feminino</label>
+            </fieldset>
+            <fieldset>
+                <legend>Esportes</legend>
+                <input type="checkbox" name="basquete" id="ibasquete">
+                <label for="ibasquete">Basquete</label>
+                <input type="checkbox" name="futebol" id="ifutebol">
+                <label for="ifutebol">Futebol</label>
+                <input type="checkbox" name="natacao" id="inatacao">
+                <label for="inatacao">Natação</label>
+                <input type="checkbox" name="tenis" id="itenis">
+                <label for="itenis">Tênis</label>
+            </fieldset>
+        
+        <p></p>
         
         <p>
             <input type="submit" value="Enviar">
