@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*Estilos para impressora*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header>h1{
+    text-align: center;
+    background-color: gray;
+    color: black;
+}
+menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 20px;
+    background-color: darkgray;
+    color: white;
+}
+menu ul{
+    padding: 10px;
+    background-color: rgb(102, 102, 102);
+}
+article{
+   margin: auto;
+    width: 700px;
+    height: 100vh;
+    text-indent: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+article h2{
+    text-align: center;
+    padding: 20px 0px;
+}
