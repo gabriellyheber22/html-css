@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Dispositivos em modo Paisagem*/
 body{
-    /* background-image: url(../imagens/cev-landscape.jpg); */
-    background-color: blueviolet;
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
