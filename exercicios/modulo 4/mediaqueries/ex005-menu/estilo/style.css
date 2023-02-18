@@ -16,7 +16,7 @@ header >h1{
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
 
 }
 menu>ul{
@@ -33,6 +33,18 @@ menu>ul> li>a{
 }
 menu>ul>li>a:hover{
     background-color: gray;
+}
+span#icon{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#icon:hover{
+    background-color: white;
+    color: black;
 }
 main{
     width: 90vw;
